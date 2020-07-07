@@ -4,6 +4,7 @@
 마라톤에 참여한 선수들의 이름이 담긴 배열 participant와 완주한 선수들의 이름이 담긴 배열 completion이 주어질 때, 완주하지 못한 선수의 이름을 return 하도록 solution 함수를 작성해주세요.
 
 풀이 1
+
 import collections
 
 def solution(participant, completion):
@@ -11,8 +12,10 @@ def solution(participant, completion):
     return list(answer.keys())[0]
 
 해석
+
 collections.Counter()기능은  배열안에 데이터를 갯수를 구해주는 기능
 ex)
+
 lst = ['aa', 'cc', 'dd', 'aa', 'bb', 'ee']
 print(collections.Counter(lst))
 
