@@ -14,6 +14,7 @@ def solution(participant, completion):
 해석
 
 collections.Counter()기능은  배열안에 데이터를 갯수를 구해주는 기능
+
 ex)
 
 lst = ['aa', 'cc', 'dd', 'aa', 'bb', 'ee']
@@ -40,6 +41,7 @@ def solution(phone_book):
 해석 1
 
 sort():정렬 함수
+
 if a in b : b안에 a가 있는지 확인
     
     
