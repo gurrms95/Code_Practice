@@ -22,3 +22,25 @@ print(collections.Counter(lst))
 Counter({'aa': 2, 'cc': 1, 'dd': 1, 'bb': 1, 'ee': 1})
 
 
+문제2
+
+전화번호부에 적힌 전화번호 중, 한 번호가 다른 번호의 접두어인 경우가 있는지 확인하려 합니다.
+전화번호가 다음과 같을 경우, 구조대 전화번호는 영석이의 전화번호의 접두사입니다.
+
+풀이 1
+
+def solution(phone_book):
+    phone_book.sort()
+    for p_num in range(len(phone_book)-1):
+        if phone_book[p_num] in phone_book[p_num+1]:
+            return False
+        
+    return True
+
+해석 1
+
+sort():정렬 함수
+if a in b : b안에 a가 있는지 확인
+    
+    
+    
